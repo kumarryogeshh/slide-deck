@@ -25,6 +25,7 @@
   "dependencies": {
     "react": "latest",
     "react-dom": "latest",
+    "react-lazyload": "^2.6.2",
     "semantic-ui-css": "latest",
     "semantic-ui-react": "latest"
   },
