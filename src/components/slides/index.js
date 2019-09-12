@@ -58,18 +58,20 @@ class Slides extends Component {
       <div className="ui container">
         <Grid columns="equal" verticalAlign="middle" centered>
           <Grid.Column>
-            <Button
-              animated
-              onClick={this.onSlideBack}
-              inverted
-              color="blue"
-              floated="left"
-            >
-              <Button.Content visible>Back</Button.Content>
-              <Button.Content hidden>
-                <Icon name="arrow left" />
-              </Button.Content>
-            </Button>
+            <div>
+              <Button
+                animated
+                onClick={this.onSlideBack}
+                inverted
+                color="blue"
+                floated="left"
+              >
+                <Button.Content visible>Back</Button.Content>
+                <Button.Content hidden>
+                  <Icon name="arrow left" />
+                </Button.Content>
+              </Button>
+            </div>
           </Grid.Column>
 
           <Grid.Column width={12}>

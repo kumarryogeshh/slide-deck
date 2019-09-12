@@ -4,6 +4,10 @@ This code is using boilerplate code from this [repo](https://github.com/kumarryo
 
 Written by [Yogesh](https://twitter.com/igoy_k).
 
+## Usage
+
+Update `src\utils\slides.json` to add your slide deck.
+
 ## Scripts
 
 `yarn react-start` will start the React app at http://localhost:3000.  
