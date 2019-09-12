@@ -1,0 +1,53 @@
+{
+  "name": "slide-deck-react",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating slide deck for presentations",
+  "main": "src/index.js",
+  "scripts": {
+    "react-start": "parcel -p 3000 index.html --out-dir build",
+    "react-build": "parcel build index.html --out-dir build --public-url ./",
+    "clean-build": "rm -rf build/ .cache dist/",
+    "build": "yarn clean-build && yarn react-build",
+    "start": "yarn react-start"
+  },
+  "keywords": [
+    "boskysoft",
+    "presentations",
+    "slide-deck",
+    "slides",
+    "react",
+    "parcel",
+    "react-parcel",
+    "react parcel"
+  ],
+  "author": "Yogesh Kumar <yogesh@boskysoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "semantic-ui-css": "latest",
+    "semantic-ui-react": "latest"
+  },
+  "homepage": "http://boskysoft.com/",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-plugin-transform-react-jsx": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "parcel-bundler": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
